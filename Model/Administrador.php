@@ -5,6 +5,7 @@ class Administrador extends AppModel
 	/**
 	 * CONFIGURACION DB
 	 */
+	public $displayField	= 'nombre';
 
 	/**
 	 * BEHAVIORS
@@ -13,22 +14,32 @@ class Administrador extends AppModel
 		/**
 		 * IMAGE UPLOAD
 		 */
-		/*
 		'Image'		=> array(
 			'fields'	=> array(
-				'imagen'	=> array(
+				'foto_perfil'	=> array(
 					'versions'	=> array(
 						array(
 							'prefix'	=> 'mini',
-							'width'		=> 100,
-							'height'	=> 100,
+							'width'		=> 80,
+							'height'	=> 80,
+							'crop'		=> true
+						),
+						array(
+							'prefix'	=> 'landscape',
+							'width'		=> 150,
+							'height'	=> 300,
+							'crop'		=> true
+						),
+						array(
+							'prefix'	=> 'square',
+							'width'		=> 300,
+							'height'	=> 300,
 							'crop'		=> true
 						)
 					)
 				)
 			)
 		)
-		*/
 	);
 
 	/**

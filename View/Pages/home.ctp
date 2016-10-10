@@ -3,7 +3,6 @@
 
 	<div class="hero-unit" style="padding: 20px 60px;">
 		<h1><?= __d('cake_dev', 'CakePHP %s', Configure::version()); ?></h1>
-		<p>Modificado y personalizado por Alvaro González - <a href="http://code.cl" target="_blank">http://code.cl</a></p>
 		<p>
 			<a href="http://cakephp.org/changelogs/<?= Configure::version(); ?>" target="_blank" class="btn btn-primary"><?= __d('cake_dev', 'Leer el log de cambios'); ?></a>
 			<?= $this->Html->link('Crear usuario administrador', array('controller' => 'administradores', 'action' => 'crear'), array('class' => 'btn btn-primary')); ?>

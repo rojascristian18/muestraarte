@@ -5,7 +5,7 @@ class CodigoArea extends AppModel
 	/**
 	 * CONFIGURACION DB
 	 */
-
+	public $displayField	= 'codigo_pais';
 	/**
 	 * BEHAVIORS
 	 */

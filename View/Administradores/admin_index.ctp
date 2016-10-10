@@ -17,21 +17,22 @@
 					<thead>
 						<tr class="sort">
 							<th><?= $this->Paginator->sort('perfil_id', null, array('title' => 'Haz click para ordenar por este criterio')); ?></th>
-							<th><?= $this->Paginator->sort('codigo_area_id', null, array('title' => 'Haz click para ordenar por este criterio')); ?></th>
+							<th>Imagen</th>
 							<th><?= $this->Paginator->sort('nombres', null, array('title' => 'Haz click para ordenar por este criterio')); ?></th>
-							<th><?= $this->Paginator->sort('email', null, array('title' => 'Haz click para ordenar por este criterio')); ?></th>
 							<th><?= $this->Paginator->sort('apellido_paterno', null, array('title' => 'Haz click para ordenar por este criterio')); ?></th>
+							<th><?= $this->Paginator->sort('email', null, array('title' => 'Haz click para ordenar por este criterio')); ?></th>
+							
 							<th>Acciones</th>
 						</tr>
 					</thead>
 					<tbody>
 						<?php foreach ( $administradores as $administrador ) : ?>
 						<tr>
-							<td><?= $this->Html->link($administrador['Perfil']['id'], array('controller' => 'perfiles', 'action' => 'edit', $administrador['Perfil']['id'])); ?></td>
-							<td><?= $this->Html->link($administrador['CodigoArea']['id'], array('controller' => 'codigo_areas', 'action' => 'edit', $administrador['CodigoArea']['id'])); ?></td>
+							<td><?= $this->Html->link($administrador['Perfil']['perfil'], array('controller' => 'perfiles', 'action' => 'edit', $administrador['Perfil']['id'])); ?></td>
+							<td><?= $this->Html->image($administrador['Administrador']['foto_perfil']['mini']); ?></td>
 							<td><?= h($administrador['Administrador']['nombres']); ?>&nbsp;</td>
-							<td><?= h($administrador['Administrador']['email']); ?>&nbsp;</td>
 							<td><?= h($administrador['Administrador']['apellido_paterno']); ?>&nbsp;</td>
+							<td><?= h($administrador['Administrador']['email']); ?>&nbsp;</td>
 							<td>
 								<?= $this->Html->link('<i class="fa fa-edit"></i> Editar', array('action' => 'edit', $administrador['Administrador']['id']), array('class' => 'btn btn-xs btn-info', 'rel' => 'tooltip', 'title' => 'Editar este registro', 'escape' => false)); ?>
 								<?= $this->Form->postLink('<i class="fa fa-remove"></i> Eliminar', array('action' => 'delete', $administrador['Administrador']['id']), array('class' => 'btn btn-xs btn-danger confirmar-eliminacion', 'rel' => 'tooltip', 'title' => 'Eliminar este registro', 'escape' => false)); ?>

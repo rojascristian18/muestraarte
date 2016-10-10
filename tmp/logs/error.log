@@ -7,3 +7,228 @@ Request URL: /muestraarte/favicon.ico
 Stack Trace:
 #0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-10-05 23:17:44 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/favicon.ico
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:19:55 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo-lr.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:20:06 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo-lr.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:20:26 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:24:50 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/favicon.ico
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:24:52 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:25:14 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/favicon.ico
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:25:25 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:25:55 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:27:58 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:31:41 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:32:16 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:33:21 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:33:47 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:33:50 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:33:56 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:35:07 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:36:34 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:37:48 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:38:08 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:38:21 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:48:10 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:49:06 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:51:05 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-10-05 23:53:37 Error: [MissingControllerException] Controller class BackendController could not be found.
+Exception Attributes: array (
+  'class' => 'BackendController',
+  'plugin' => NULL,
+)
+Request URL: /muestraarte/backend/img/logo.png
+Stack Trace:
+#0 C:\wamp\www\muestraarte\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

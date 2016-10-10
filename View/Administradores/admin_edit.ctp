@@ -16,10 +16,6 @@
 						<td><?= $this->Form->input('perfil_id', array('class' => 'form-control select')); ?></td>
 					</tr>
 					<tr>
-						<th><?= $this->Form->label('codigo_area_id', 'Codigo area'); ?></th>
-						<td><?= $this->Form->input('codigo_area_id', array('class' => 'form-control select')); ?></td>
-					</tr>
-					<tr>
 						<th><?= $this->Form->label('nombres', 'Nombres'); ?></th>
 						<td><?= $this->Form->input('nombres'); ?></td>
 					</tr>
@@ -45,7 +41,7 @@
 					</tr>
 					<tr>
 						<th><?= $this->Form->label('fono', 'Fono'); ?></th>
-						<td><?= $this->Form->input('fono'); ?></td>
+						<td><?= $this->Form->input('codigo_area_id', array('class' => 'form-control select', 'empty' => 'Código area')); ?> - <?= $this->Form->input('fono'); ?></td>
 					</tr>
 					<tr>
 						<th><?= $this->Form->label('comentario_count', 'Comentario count'); ?></th>
@@ -57,7 +53,7 @@
 					</tr>
 					<tr>
 						<th><?= $this->Form->label('foto_perfil', 'Foto perfil'); ?></th>
-						<td><?= $this->Form->input('foto_perfil'); ?></td>
+						<td><?= $this->Form->input('foto_perfil', array('class' => '', 'type' => 'file') ); ?></td>
 					</tr>
 					<tr>
 						<th><?= $this->Form->label('activo', 'Activo'); ?></th>
